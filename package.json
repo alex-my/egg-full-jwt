@@ -1,6 +1,6 @@
 {
   "name": "egg-full-jwt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "jwt插件",
   "eggPlugin": {
     "name": "fullJwt"
@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-full-jwt.git"
+    "url": "git+https://github.com/alex-my/egg-full-jwt"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/alex-my/egg-full-jwt/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-full-jwt#readme",
+  "homepage": "https://github.com/alex-my/egg-full-jwt#readme",
   "author": "alex_my@126.com",
   "license": "MIT"
 }
