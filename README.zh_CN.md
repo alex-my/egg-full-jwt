@@ -64,10 +64,8 @@ exports.fullJwt = {
 
 module.exports = app => {
   class HomeController extends app.Controller {
-
     // /login?userId=10001
     async login() {
-
       // password check ...
 
       const { userId } = this.ctx.query;
@@ -84,7 +82,7 @@ module.exports = app => {
     }
 
     async index() {
-      const token = this.ctx.cookies.get('token);
+      const token = this.ctx.cookies.get('token');
 
       if (!token) {
         this.ctx.redirect('/login');
