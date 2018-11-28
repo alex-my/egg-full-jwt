@@ -8,7 +8,8 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "egg-jwt"
   ],
   "dependencies": {
     "jsonwebtoken": "^8.4.0"

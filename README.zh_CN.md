@@ -54,6 +54,8 @@ exports.fullJwt = {
 };
 ```
 
+请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
+
 ## 示例
 
 ```js
